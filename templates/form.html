@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Recommender</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <br/>
+    <br/>
+    <h2>Music Recommendation</h2>
+  
+    <form action="/submit" method="POST">
+      <div class="form-group">
+        <label for="user_input">Recommend Songs Similar To:</label>
+        <select id="user_input" name="user_input" class="form-control">
+          {% for item in dataframe %}
+            <option value="{{ item }}" {% if selected_song == item %}selected{% endif %}>{{ item }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <br/>
+    <br/>
+
+    {% if songs %}
+      <h3>Recommended Songs for {{ userinput }}:</h3>
+      <ul>
+        {% for song in songs %}
+          <li>{{ song }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
