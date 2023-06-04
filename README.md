@@ -7,8 +7,8 @@ Team: Chris, Trinity, Tony, Chandler, Tayne, Isshan (Advisor : Seonghee)
 
 ### 1. Open a Terminal 
 - what is a terminal? 
-> Windows : Powershell 
-> Mac : Terminal 
+> Windows : Powershell , Mac : Terminal 
+
 Search up "powershell" or "terminal" on your computer. 
 
 ### 2. Clone the Repo
