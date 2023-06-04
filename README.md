@@ -48,3 +48,11 @@ Backend Django : https://www.youtube.com/watch?v=0sMtoedWaf0
 > This is for adding more functions, data operations and other support. Basically, edit the musicRec.py 
 
 
+
+### Questions
+contact : shl1027@stanford.edu
+
+
+
+
+
