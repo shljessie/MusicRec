@@ -2,11 +2,8 @@
 
 Team: Chris, Trinity, Tony, Chandler, Tayne, Isshan (Advisor : Seonghee) 
 
-1. How to use this code 
+## How to use this code 
 
-Follow the steps here!: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository 
-
-or 
 
 1. Open a Terminal 
 - what is a terminal? 
