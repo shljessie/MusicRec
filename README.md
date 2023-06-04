@@ -1,6 +1,6 @@
 # Music Rec 
 
-
+Team: Chris, Trinity, Tony, Chandler, Tayne, Isshan (Advisor : Seonghee) 
 
 1. How to use this code 
 
