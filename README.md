@@ -29,7 +29,7 @@ Type in
 
 > You may have to download python on your computer : Download python here: https://www.python.org/downloads/ ,, the steps are listed more in detail here: https://realpython.com/installing-python/
 
-Once you do, you should see, 
+Once you run > python3 musicRec.py you should see, 
 <img width="258" alt="Screenshot 2023-06-04 at 6 55 08 PM" src="https://github.com/shljessie/MusicRec/assets/59305253/c7916b10-ee86-48c8-afb4-0a416c2042fa">
 
 Go to http://127.0.0.1:5000 in your browser (Chrome,Google, Safari..etc)
